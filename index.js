@@ -28,35 +28,33 @@ function wrapGifts(gifts) {
 
 wrapGifts(gifts); */
 
+
 function writeCards(names, event) {
-    let newArr = [];
-    for (let i = 0; i < names.length; i++) {
-        newArr.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
-        debugger;
-    }
+  let newArr = [];
+  for (let i = 0; i < names.length; i++) {
+      newArr.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+      debugger;
+  }
 return newArr;
 } 
 /*
 while ([condtioin]){
-    [loop body]
+  [loop body]
 }
 
 function plantGarden() {
-    let keepWorking = true;
-    while (keepWorking) {
-      chooseSeedLocation();
-      plantSeed();
-      waterSeed();
-      keepWorking = checkForMoreSeeds();
-    } */
-  
+  let keepWorking = true;
+  while (keepWorking) {
+    chooseSeedLocation();
+    plantSeed();
+    waterSeed();
+    keepWorking = checkForMoreSeeds();
+  } */
 
-  function countDown() {
-      let countDown = 10;
-      while (countDown >= 0) {
-        console.log(countDown--);
-      }
+
+function countDown() {
+    let countDown = 10;
+    while (countDown >= 0) {
+      console.log(countDown--);
+    }
 };
-
-  
-  
